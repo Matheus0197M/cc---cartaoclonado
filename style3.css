@@ -1,0 +1,80 @@
+body{
+    background-color: #cfae40;
+    font-family: sans-serif;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.titulo{
+    color: orangered;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    animation-duration: 50ms;
+}
+
+.imagem{
+    background-color: #222;
+    border-radius: 30px;
+    padding: 5px;
+    align-items: center;
+    border: none;
+}
+
+.imagemexemplo{
+    border: none;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.insert{
+    color: orange;
+    padding: 10px;
+    background-color: #666;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cadnumero{
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.um{
+    background-color: #041f50;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+textarea{
+    border-radius: 5px;
+    background-color: #666;
+    text-align: center;
+    padding: 2px;
+    color: white;
+}
+
+.verificar{
+    color:violet;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+}

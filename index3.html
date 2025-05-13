@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC - Cartão Clonado</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style3.css">
+    <div class="titulo">
+    <h1>Tá com dúvida? Descubra se seu cartão foi clonado</h1>
+    <div class="imagem">
+           <img class="imagemexemplo" src="https://www.itau.com.br/cartoes/escolha/static/419061503b61eb0a8386943bf508f33c/6c136/banner_uniclass_desktop.png" alt="">
+    </div>
+    </div>
+    <div>
+        <h3 class="insert">Insira abaixo os dados do cartão</h3>
+        <form action="submt" class="dadoscartao">
+            <div class="cadnumero">
+                <p class="um">Agência</p>
+                <textarea name="mensagem" rows="3" cols="40" placeholder="Agência"></textarea>
+                <p class="um">Conta</p>
+                <textarea name="mensagem" rows="3" cols="40" placeholder="Conta"></textarea>
+                <p class="um">Código de Segurança</p>
+                <textarea name="mensagem" rows="3" cols="40" placeholder="Cód. de Seg."></textarea>
+                <p class="um">Dígitos frontais</p>
+                <textarea name="mensagem" rows="3" cols="40" placeholder="Dígitos frontais"></textarea>
+            </div>
+        </form>
+    </div>
+    <button id="doos" type="submit" class="verificar"><strong>Verificar</strong></button>
+    <div>
+    <footer>
+        <p>Este é um site de testes e clonagem de cartões, feito para fins educativos. Não se preocupe com seus dados, pois não faremos nada de errado com seu cartão!</p>
+        <br>
+        <p>Todos os direitos autorais reservados © 2025</p>
+    </footer>
+    </div>
+
+    <!-- PARTE DO JS -->
+
+    <script>
+        function clonagem(){
+            document.getElementById(doos) .innerHTML;
+            console.log("Seu cartão não foi clonado, ainda!");
+        }
+    </script>
+
+    <!-- PARTE DO JS -->
+
+</body>
+</html>
